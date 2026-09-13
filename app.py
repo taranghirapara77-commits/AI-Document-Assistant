@@ -15,8 +15,8 @@ load_dotenv()
 groq_api_key = os.getenv('API_KEY')
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
-st.set_page_config(page_title="Document Question Answering System", layout="wide")
-st.title("Document Question Answering System")
+st.set_page_config(page_title="AI Document Assistant", layout="wide")
+st.title("AI Document Assistant")
 st.caption("Initially Ingest the Data into Vector Store and then ask questions.")
 
 llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
