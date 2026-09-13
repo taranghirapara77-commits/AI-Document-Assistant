@@ -1,4 +1,4 @@
-# 📄 Document Question Answering System
+# 📄 AI Document Assistant
 
 A **Retrieval-Augmented Generation (RAG)** based application that allows users to ask questions about PDF documents and receive answers based on their content.
 
